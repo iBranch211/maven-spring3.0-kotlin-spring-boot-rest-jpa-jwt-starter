@@ -1,7 +1,7 @@
 # kotlin-spring-boot-rest-jpa-jwt-starter
 
-[![Build Status](https://travis-ci.org/osahner/kotlin-spring-boot-rest-jpa-jwt-starter.svg?branch=master)](https://travis-ci.org/osahner/kotlin-spring-boot-rest-jpa-jwt-starter)
-[![codecov](https://codecov.io/gh/osahner/kotlin-spring-boot-rest-jpa-jwt-starter/branch/master/graph/badge.svg)](https://codecov.io/gh/osahner/kotlin-spring-boot-rest-jpa-jwt-starter/branch/master/)
+[![Build Status](https://travis-ci.org/osahner/kotlin-spring-boot-rest-jpa-jwt-starter.svg?branch=develop)](https://travis-ci.org/osahner/kotlin-spring-boot-rest-jpa-jwt-starter)
+[![codecov](https://codecov.io/gh/osahner/kotlin-spring-boot-rest-jpa-jwt-starter/branch/develop/graph/badge.svg)](https://codecov.io/gh/osahner/kotlin-spring-boot-rest-jpa-jwt-starter/branch/develop/)
 
 
 **Features**:
@@ -49,7 +49,7 @@ curl  -H "Authorization: Bearer ***"  http://localhost:4080/starter-test/api/v1/
 
 ```sh
 mvn clean package -Dmaven.test.skip=true
-docker run -it -p 8888:8888 --rm osahner/kotlin:0.6.2-SNAPSHOT
+docker run -it -p 8888:8888 --rm osahner/kotlin-spring-boot-rest-jpa-jwt-starter:0.6.3-SNAPSHOT
 
 curl http://localhost:8888/starter-test/api/v1/test
 # result: Pong!%
