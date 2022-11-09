@@ -3,7 +3,6 @@ package osahner.security
 import io.jsonwebtoken.Jwts
 import io.jsonwebtoken.SignatureAlgorithm
 import io.jsonwebtoken.security.Keys
-import jakarta.annotation.PostConstruct
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken
 import org.springframework.security.core.Authentication
 import org.springframework.security.core.userdetails.User
@@ -13,6 +12,7 @@ import osahner.config.SecurityProperties
 import osahner.service.AppUserDetailsService
 import java.security.Key
 import java.util.*
+import javax.annotation.PostConstruct
 
 @Component
 class TokenProvider(

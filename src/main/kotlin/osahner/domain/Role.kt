@@ -2,7 +2,7 @@
 
 package osahner.domain
 
-import jakarta.persistence.*
+import javax.persistence.*
 
 @Entity
 @Table(name = "app_role")
