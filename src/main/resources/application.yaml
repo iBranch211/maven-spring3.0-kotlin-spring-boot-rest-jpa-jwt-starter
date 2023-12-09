@@ -12,8 +12,8 @@ spring:
       hibernate.show_sql: false
       hibernate.dialect.storage_engine: innodb
   datasource:
-    password: starterspringkotlin
-    username: starterspringkotlin
+    password:
+    username: root
     url: jdbc:mysql://localhost:3306/starterspringkotlin?ssl-mode=REQUIRED
   sql:
     init:
